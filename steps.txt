@@ -1,0 +1,27 @@
+1. Install Node
+2. Install React Dev tools for chome
+3. Create folder and init git (do this before using Create React App)
+4. npx create-react-app whatever app name 
+    https://github.com/facebook/create-react-app
+    helps configure react 
+    uses webpack module bundler
+
+
+JSX is javscript and html combined, used to render react components
+    can't use the class attribute, have to use className
+
+    All list items must have keys 
+    Keys help React identify which items have changed, are added, or are removed. 
+    https://reactjs.org/docs/lists-and-keys.html#keys
+
+In JSX components can have their styling inline
+Styles are same as CSS except camelCase instead of hyphens
+Ex: backgroundColor instead of background-color
+
+Redux is a state container for React
+Built-in Context API is alternative to Redux 
+https://stackoverflow.com/questions/49568073/react-context-vs-react-redux-when-should-i-use-each-one#49569183
+
+Installed axios to execute http requests
+Axios is compatible with IE 11
+
